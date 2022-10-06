@@ -24,11 +24,15 @@ public class Main extends JFrame implements ActionListener {
         secondInt = new JTextField();
         secondInt.setBounds(150, 40, 100, 21);
 
+        JLabel equals = new JLabel("=");
+        equals.setBounds(270, 40, 50, 21);
+
         result = new JTextField();
         result.setBounds(300, 40, 100, 21);
 
         c.add(firstInt);
         c.add(secondInt);
+        c.add(equals);
         c.add(result);
         setVisible(true);
     }
