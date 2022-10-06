@@ -1,3 +1,5 @@
+# Homework 2: Simple Window Interface Calculator
+
 This is my second homework assignment for my Java course at NJIT. This is my first Java program using a GUI. Here is the objective:
 
 Design a window interface with a frame that has any light shade as background color (5 points). It should have three text fields (15 points), four radio buttons (20 points), and a label (for the equality sign, 5 points) as follows. 
@@ -14,3 +16,6 @@ Added "=" Label.
 
 # Edit 3
 Added radio buttons, and added them into a button group.
+
+# Edit 4
+Created ActionListeners, and a try-block.
