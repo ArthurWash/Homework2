@@ -91,13 +91,14 @@ public class Main extends JFrame implements ActionListener {
                 resultDouble = (i * j);
 
             if(evt.getSource() == division)
+                if(j==0){
+                JOptionPane.showMessageDialog(null, "Error: Division by zero");
                 resultDouble = ((double) i / j);
+                }
 
             resultBox.setText(String.valueOf(resultDouble));
-        }catch(ArithmeticException e){
-            JOptionPane.showMessageDialog(null, "Error: Cannot divide by zero.");
         }catch(Exception e){
-            JOptionPane.showMessageDialog(null, "Error: Non integer inputs or no input on one or both textfields.");
+            JOptionPane.showMessageDialog(null, "Error: " + e);
         }
     }
 }
