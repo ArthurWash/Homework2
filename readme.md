@@ -19,3 +19,6 @@ Added radio buttons, and added them into a button group.
 
 # Edit 4
 Created ActionListeners, and a try-block.
+
+# Edit 5
+Fixed the division by zero error, which was not appearing when the user divded by zero.
